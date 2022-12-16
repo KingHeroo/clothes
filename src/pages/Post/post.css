@@ -1,0 +1,31 @@
+.headerr {
+  font-weight: 700;
+  color: rgb(16, 16, 44);
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin: 0 10px;
+}
+.blog-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: monospace;
+  padding: 5px 5px;
+}
+.a {
+  margin: 20px 0;
+}
+.blog-img img{
+    width: 800px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.blog-img{
+    padding: 50px 200px;
+}
+.blog-text{
+    width: 800px;
+margin-left: 180px;
+}

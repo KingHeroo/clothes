@@ -1,0 +1,21 @@
+.ct-header {
+  position: relative;
+}
+.text h1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+img {
+  width: 100%;
+}
+.content-about{
+    margin-top: 50px;
+    padding: 15px 30px;
+    letter-spacing: 1.2px;
+}
+.content-about h2{
+    font-weight:500;
+    text-decoration:  underline;
+}

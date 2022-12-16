@@ -1,0 +1,102 @@
+h1 {
+  text-align: center;
+  color: #a8a8a8;
+  text-shadow: 1px 1px 0 rgba(white, 1);
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+input,
+textarea {
+background-color: #dbd7d7;
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Merriweather", sans-serif;
+  box-shadow: (0 1px 1px rgba(black, 0.1));
+  resize: none;
+}
+
+#input-submit {
+  color: white;
+  background: rgb(179, 150, 150);
+  cursor: pointer;
+}
+#input-submit:hover {
+  box-shadow: (0 1px 1px 1px rgba(#aaa, 0.6));
+}
+
+textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+.row_ct{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+.col_ct{
+padding: 10px 10px;
+margin:0px 50px;
+}
+
+.ct-form{
+  margin:0 auto;
+}
+.addr{
+    margin-left: -70px;
+    margin-bottom: 30px;
+}
+.half.left.cf .txt{
+    border-radius: 17px;
+    padding:10px 20px;
+    margin:5px 0;
+    background-color: #dbd7d7;
+}
+.half.right.cf .txt{
+    border-radius: 17px;
+    padding:10px 20px;
+    margin:5px 0;
+    background-color: #f1eded;
+}
